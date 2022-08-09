@@ -36,12 +36,12 @@ function Header() {
         }}
       >
         <div className="h-full max-w-[960px] mx-auto flex justify-between items-center">
-          <div className="min-w-10 min-h-4 flex items-center">
+          <a className="min-w-10 min-h-4 flex items-center" href="#">
             <img
               className="w-28"
               src={require("../assets/imgaes/signature.png")}
             ></img>
-          </div>
+          </a>
           <div className="h-full sm:flex hidden justify-between items-center gap-8 text-white">
             <div className="h-full flex justify-between items-center gap-4 text-white">
               <a
