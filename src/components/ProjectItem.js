@@ -6,7 +6,6 @@ function ProjectItem(props) {
   Aos.init();
   return (
     <>
-      <div data-aos="fade-up">
         <div className="flex sm:flex-row flex-col justify-between w-full mb-14">
           <div className="flex flex-col sm:w-3/5 w-full">
             <span className="text-[3rem] font-[400]">{info.title}</span>
@@ -42,7 +41,6 @@ function ProjectItem(props) {
             </div>
           </a>
         </div>
-      </div>
     </>
   );
 }

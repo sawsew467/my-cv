@@ -1,4 +1,5 @@
 import React from "react";
+import cv from "../assets/CV_Tran Van Bao Thang_Frontend.pdf"
 
 function About() {
   return (
@@ -64,7 +65,7 @@ function About() {
               <div className="mt-8 w-40 h-12 relative mx-auto sm:mx-0">
                 <a
                   className="w-full h-full text-lg text-white hover-text-primary bg-primary text-center leading-[3rem] relative block translate-x-[-10px] translate-y-[-10px] hover:translate-x-0 hover:translate-y-0 transition-all"
-                  href="../assets/CV_TranVanBaoThang.pdf"
+                  href={cv}
                   download
                 >
                   Download CV

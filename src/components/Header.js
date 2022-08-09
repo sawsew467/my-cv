@@ -114,21 +114,24 @@ function Header() {
             >
               <div
                 className={
-                  isShowMobileMenu && scrollPosition === 0
+                  isShowMobileMenu 
+                //   && scrollPosition === 0
                     ? "w-[1.75rem] h-[2px] bg-white rotate-45 translate-y-[10px] transition-all duration-500"
                     : "w-[1.75rem] h-[2px] bg-white transition-all duration-500"
                 }
               ></div>
               <div
                 className={
-                  isShowMobileMenu && scrollPosition === 0
+                  isShowMobileMenu 
+                //   && scrollPosition === 0
                     ? "w-[1.75rem] h-[2px] translate-x-[100%] transition-all duration-500 opacity-0"
                     : "w-[1.75rem] h-[2px] bg-white transition-all duration-500 opacity-100"
                 }
               ></div>
               <div
                 className={
-                  isShowMobileMenu && scrollPosition === 0
+                  isShowMobileMenu 
+                //   && scrollPosition === 0
                     ? "w-[1.75rem] h-[2px] bg-white rotate-[135deg] translate-y-[-10px] transition-all duration-500"
                     : "w-[1.75rem] h-[2px] bg-white transition-all duration-500"
                 }
@@ -137,7 +140,8 @@ function Header() {
           </div>
           <nav
             className={
-              isShowMobileMenu && scrollPosition === 0
+              isShowMobileMenu 
+            //   && scrollPosition === 0
                 ? "fixed top-0 right-0 left-0 z-50 translate-x-0 transition-all duration-500 translate-y-14"
                 : "fixed top-0 right-0 left-0 z-50 translate-x-[100%] transition-all duration-500 translate-y-14"
             }
@@ -150,13 +154,13 @@ function Header() {
                 <div className="text-xl text-center py-2 text-white">About</div>
               </a>
               <a
-                href="#introduction"
+                href="#projects"
                 onClick={() => setIsShowMobileMenu(!isShowMobileMenu)}
               >
                 <div className="text-xl text-center py-2 text-white">Projects</div>
               </a>
               <a
-                href="#activity"
+                href="#contact"
                 onClick={() => setIsShowMobileMenu(!isShowMobileMenu)}
               >
                 <div className="text-xl text-center py-2 text-white">Contact</div>
