@@ -59,7 +59,7 @@ function Banner() {
               </div>
               <img
                 className="ml-auto"
-                src={require("../assets/imgaes/banner-left.png")}
+                src={require("../assets/imgaes/banner 1.png")}
               ></img>
             </div>
           </div>
@@ -84,7 +84,7 @@ function Banner() {
               </div>
               <img
                 className="top-0 left-0 z-0 "
-                src={require("../assets/imgaes/banner-right.png")}
+                src={require("../assets/imgaes/banner 2.png")}
               ></img>
             </div>
           </div>
