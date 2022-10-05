@@ -22,7 +22,7 @@ function ProjectItem(props) {
             <div className="my-4 w-40 h-12 relative sm:ml-0 ml-[10px]">
               <a
                 className="w-full h-full text-lg text-white hover-text-primary bg-primary text-center leading-[3rem] relative block translate-x-[-10px] translate-y-[-10px] hover:translate-x-0 hover:translate-y-0 transition-all"
-                href="../assets/CV_TranVanBaoThang.pdf"
+                href={info.link}
                 download
               >
                 View project

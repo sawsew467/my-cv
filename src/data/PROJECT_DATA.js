@@ -44,7 +44,7 @@ const PROJECT_DATA = [
         ],
         desc: `Cloning website of Macintosh, this project was done during the beginning time I learned HTML/CSS/JS.`,
         img: "macintosh",
-        link: "https://sawsew467.github.io/Macintosh/"
+        link: "https://sawsew467.github.io/macintosh"
     },
 ]
 

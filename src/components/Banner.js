@@ -59,7 +59,7 @@ function Banner() {
               </div>
               <img
                 className="ml-auto"
-                src={require("../assets/imgaes/1 2.png")}
+                src={require("../assets/imgaes/banner 1.png")}
               ></img>
             </div>
           </div>
@@ -79,12 +79,12 @@ function Banner() {
                 <span className="sm:text-4xl text-xl z-10 font-[300] relative after:absolute after:z-[-1] after:w-1/2 after:h-3 after:bg-primary after:right-0 after:bottom-2 hover:after:w-full after:transition-all">{`<Developer>`}</span>
                 <p className="sm:text-md text-sm text-slate-500 mt-2 text-end w-[60%] mb-2">
                   Front-end developer who focus on writing clean, elegent and
-                  effectciant code
+                  effectciant coden
                 </p>
               </div>
               <img
                 className="top-0 left-0 z-0 "
-                src={require("../assets/imgaes/1 3.png")}
+                src={require("../assets/imgaes/banner 2.png")}
               ></img>
             </div>
           </div>
