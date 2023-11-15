@@ -1,5 +1,4 @@
 import React from "react";
-// import cv from "@/assets/CV_TranVanBaoThang.pdf";
 import Image from "next/image";
 
 function About() {
