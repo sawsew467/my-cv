@@ -1,6 +1,6 @@
 const PROJECT_DATA = [
   {
-    title: "Dever",
+    title: "FU-DEVER",
     tech: ["ReactJS", "Tailwindcss", "Responsive"],
     desc: `The project is the landing page that shows the information about the CLUB FU-Dever from FPT Da Nang University.`,
     img: "dever",
