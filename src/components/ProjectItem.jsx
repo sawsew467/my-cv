@@ -1,10 +1,8 @@
-import Aos from "aos";
 import Image from "next/image";
 import React from "react";
 
 function ProjectItem(props) {
   const info = props.info;
-  Aos.init();
   return (
     <>
       <div className="flex sm:flex-row flex-col justify-between w-full mb-14">

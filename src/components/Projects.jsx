@@ -1,10 +1,8 @@
-import Aos from "aos";
 import React from "react";
 import PROJECT_DATA from "../data/PROJECT_DATA";
 import ProjectItem from "./ProjectItem";
 
 function Projects() {
-  Aos.init();
   return (
     <>
       <div className="flex" id="projects">

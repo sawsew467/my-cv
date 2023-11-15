@@ -36,12 +36,6 @@ export default function RootLayout({
           href="https://fonts.gstatic.com"
           crossOrigin="anonymous"
         />
-
-        <link
-          href="https://unpkg.com/aos@2.3.1/dist/aos.css"
-          rel="stylesheet"
-        ></link>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" async></script>
         <link rel="shortcut icon" href="/src/assets/imgaes/favicon.png"></link>
       </Head>
       <body suppressHydrationWarning={true} className={inter.className}>
